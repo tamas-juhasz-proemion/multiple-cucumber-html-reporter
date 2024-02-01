@@ -25,10 +25,9 @@ test.generate({
     }
 });
 
-/*
-/!**
+/**
  * Generate a report for browsers
- *!/
+ */
 test.generate({
     saveCollectedJSON: true,
     jsonDir: './test/unit/data/json/',
@@ -49,9 +48,9 @@ test.generate({
     }
 });
 
-/!**
+/**
  * Generate a report with array of embedded data
- *!/
+ */
 test.generate({
     saveCollectedJSON: true,
     jsonDir: './test/unit/data/embedded-array-json/',
@@ -71,9 +70,9 @@ test.generate({
     }
 });
 
-/!**
+/**
  * Generate a report for browsers with report time
- *!/
+ */
 test.generate({
     saveCollectedJSON: true,
     jsonDir: './test/unit/data/json/',
@@ -96,10 +95,10 @@ test.generate({
     }
 });
 
-/!**
+/**
  * Generate a report with custom metadata
  * NOTE: must be last, if you use customMetadata you cannot reuse generator
- *!/
+ */
 test.generate({
     saveCollectedJSON: true,
     jsonDir: './test/unit/data/custom-metadata-json/',
@@ -114,4 +113,3 @@ test.generate({
         { "name": "platform version", "value": "16.04" }
     ]
 });
-*/
